@@ -59,7 +59,9 @@ You'll need a way for users to set this priority, so an icon or button of some s
 
 * *Marking an item as complete*
 
-You should be able to mark an item as complete, which displays the text of that item with a strikethrough (without actually removing it from the list). Again, there needs to be an icon or button to do this. Think about how you want to display this in an aesthetically pleasing manner.
+You should be able to mark an item as complete, which displays the text of that item with a strikethrough (without actually removing it from the list). If you're able to mark an item as complete, you should also be able to unmark it (which, in turn, undoes the strikethrough change).
+
+Again, there needs to be an icon or button to do this. Think about how you want to display this in an aesthetically pleasing manner.
 
 * *Removing an item from the list*
 
