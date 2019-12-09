@@ -45,23 +45,23 @@ Most of us are familiar with the concept of a to-do list, so the use cases here 
 
 Most of these are pretty straightforward, but let's walk through them anyway.
 
-* Adding an item to the list
+* *Adding an item to the list*
 
 You should use an array to store your list of items that need doing. Every time a user adds an item, you'll need to add that item to the underlying array. I recommend storing these items as objects, so you can group content, priorty, and status together. The content of each item should be viertically displayed on the page.
 
 There should be a form-like section that allows you to enter the contents of a new item (along with a predefined priority), and a button to add it. This should be separate from the list itself, of course.
 
-* Setting the priority of an item on the list
+* *Setting the priority of an item on the list*
 
 You should be able to modify the priorty of a given item (making it one of two possible values: high or low). By default, items have a low priority. When a user makes an item a higher priority, it should be moved to the top of the list (i.e., the front of the array). Likewise, when a user makes an item a lower priority, it should be moved to the bottom of the list (i.e., the end of the array).
 
 You'll need a way for users to set this priority, so an icon or button of some sort should exist in the display of your list items. Think about the most aesthetic way to include this icon or button in your list.
 
-* Marking an item as complete
+* *Marking an item as complete*
 
 You should be able to mark an item as complete, which displays the text of that item with a strikethrough (without actually removing it from the list). Again, there needs to be an icon or button to do this. Think about how you want to display this in an aesthetically pleasing manner.
 
-* Removing an item from the list
+* *Removing an item from the list*
 
 As you can add items to the list, you should be able to remove them, too. Removing an item deletes it from the underlying array. The list should re-render, rather than leaving an empty spot on the page. You'll need an appropriate icon or button to trigger item removals.
 
