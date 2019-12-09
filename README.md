@@ -1,6 +1,6 @@
 # Problem Set 6
 
-It's time to put your skills to the test. This problem set focuses on programming in JavaScript. More specifically, it focuses on creating a fully functional to-do list application.
+It's time to put your skills to the test. This problem set focuses on programming in JavaScript. More specifically, it focuses on creating a fully functional to-do list application from scratch.
 
 ## Getting Started
 
