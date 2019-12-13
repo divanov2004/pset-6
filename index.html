@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" http-equiv="description" content="Listmoz is an online list maker. It's free, fast and easy (and you don't have to register)." />
+<title>Online List Maker - Listmoz</title>
+<link href="/includes/web.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/includes/print.css" rel="stylesheet" type="text/css" media="print" />
+</head>
+
+<body id="body">
+<script type="text/javascript" src="includes/js.js"></script>
+<script type="text/javascript" src="includes/list.js"></script>
+<form action="javascript:list.add()" method="post" id="add" class="hide-on-print">
+<div id="header" class="hide-on-print">
+	<p><a href="#" id="print" target="_blank">Print</a> | <a href="#" id="mail">Email</a> | <a href="javascript:bookmark()">Bookmark</a> | <a href="#" id="read-only" target="_blank">Read Only</a> | <a href="http://listmoz.com" onclick="window.location = 'http://listmoz.com'">New</a></p>
+	<p style="float:right">Your URL is <a href="#" id="url">#</a> - Don't lose it!</p>
+</div>
+<!-- yeah yeah, I know - it's a table -->
+	<table class="hide-on-print">
+		<tr>
+			<td><input type="text" name="add" id="add-field" value="Add new item" /></td>
+			<td><input type="submit" name="submit" id="submit" value="+" /></td>
+		</tr>
+	</table>
+</form>
+
+
+<div id="lists">
+
+</div>
+
+<p id="footer" onclick="$('#help').slideToggle()" class="hide-on-print">Help?</p>
+<div id="help" class="hide-on-print">
+	<h2>How does Listmoz work?</h2>
+	<p>When you go to listmoz.com, a unique URL is generated for your list (something like <span style="white-space:nowrap">http://listmoz.com#kbbd5f85v90</span>). You are immediately able to manage your list. You can</p>
+	<ul>
+		<li>add items</li>
+		<li>edit items</li>
+		<li>move items around (drag and drop)</li>
+		<li>check off items</li>
+		<li>uncheck items</li>
+		<li>and delete items.</li>
+	</ul>
+	<p>Once your list is created, you can print it off, email it, bookmark it, or create a new list. <strong>You need to remember your list URL! Make sure you bookmark the list, or email it to yourself.</strong> There is no way to retrieve  the list if you lose the URL!</p>
+	<p>If you email your list URL to someone, they are able to edit your list. If you need to share your list in a read only fashion (e.g. you don't want people to edit it), click the &quot;Read Only&quot; link. A page is generated with your list on it, but all the editing features are disabled. You can email that URL to people, and those people won't be able to edit your list.</p>
+	<p><strong>Important information about security - </strong> Your list URL is the only thing protecting your list. A list URL is crackable (although it's <em>very</em> unlikely, about 1 in 1 septillion). <strong>Don't put  sensitive information on your list!</strong> Always assume someone is capable of viewing and editing your list.</p>
+    <p>Oh, and if you want to make a test, you can use my <a href="https://testmoz.com">test maker</a>.</p>
+
+	<h2>Need more help?</h2>
+	<p>Email <a href="mailto:matthewjohnson@wsu.edu">Matt Johnson</a>, the guy who made this online list maker.</p>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6553843-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
