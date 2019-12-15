@@ -69,7 +69,12 @@ As you can add items to the list, you should be able to remove them, too. Removi
 
 ### Sample
 
-Coming soon!
+Check out the demo in the `samples` folder. The video shows each of the requirements outlined above.
+
+* Adding an item to the list (either by clicking the `ADD` button or pressing the enter key). If the textbox is empty, the application ignores key presses and button clicks.
+* Changing the priority of an item. The exclamation point changes colors, and the item is re-rendered at either the top of bottom of the list.
+* Changing the completion status of an item. The checkmark changes colors, as does the border and text of the item. Additionally, the text is crossed out.
+* Removing an item from the list. The item disappears and the list is re-rendered.
 
 ## Deadline
 
