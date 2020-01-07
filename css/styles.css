@@ -1,0 +1,157 @@
+.title {
+font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+font-size: 40px;
+letter-spacing: 0.6px;
+word-spacing: 6px;
+color: #FC766AFF;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+text-align: center;
+}
+
+.divider {
+  color: #FC766AFF;
+}
+
+.user_input {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.input {
+  margin: auto;
+  width: 50%;
+  padding: 2px;
+  border-width: 3px;
+  border-radius: 25px;
+  font-family: monospace;
+  font-size: 35px;
+  background-color: #FC766AFF;
+  border-color: black;
+}
+.button_add {
+  border-radius: 25px;
+  border-style: ridge;
+  border-width: 3px;
+  width: 5%;
+  padding: 10px;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  word-spacing: 6px;
+  color: #FC766AFF;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  background-color: #5B84B1FF;
+  border-color: black;
+}
+table {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-top: 22px;
+    border-spacing: 10px;
+    border-radius: 25px;
+    background-color: white;
+    font-family: sans-serif;
+    background: #FC766AFF;
+    background: -moz-linear-gradient(top, #5B84B1FF 0%, #FC766AFF 100%);
+    background: -webkit-linear-gradient(top, #5B84B1FF 0%,#FC766AFF 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FC766AFF', endColorstr='#ed9017',GradientType=0 );
+}
+
+ td {
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  word-spacing: 6px;
+  color: #FC766AFF;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+.to_do {
+  font-family: sans-serif;
+  text-align: center;
+  border: 2px solid;
+  background-color: black;
+  font-size: 25px;
+  border-radius: 5px;
+}
+.to_do:hover {
+  background-color: #5B84B1FF;
+  color: black;
+  border-color: black;
+}
+.row {
+    margin-top: 20px;
+    height: 40px;
+}
+.priority_button {
+    width: 40px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.priority_button:hover {
+    background-color: #5B84B1FF;
+    color: black;
+    border-color: black;
+}
+.complete_button {
+    align: left;
+    width: 40px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid;
+}
+.complete_button:hover {
+    background-color: #5B84B1FF;
+    color: black;
+    border-color: black;
+}
+.remove_button {
+    align: left;
+    width: 40px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.remove_button:hover {
+    background-color: #ff4040;
+    color: black;
+    border-color: black;
+}
+body {
+  background-color: #161616;
+
+}
+hr {
+  width: 90%;
+}
+
+p {
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  word-spacing: 6px;
+  color: #FC766AFF;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  text-align: center;
+}
